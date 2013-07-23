@@ -8,7 +8,7 @@ projects[aegir_platform_clone][location] = http://code.danepowell.com/fserver
 
 projects[cas] = 3.2
 
-projects[ctools] = 1.9
+projects[ctools] = 1.10
 
 projects[] = diff
 
