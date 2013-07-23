@@ -3,6 +3,9 @@ api = 2
 
 includes[aegir] = "/usr/share/drush/commands/provision/aegir.make"
 
+projects[aegir_platform_clone][version] = 1.1
+projects[aegir_platform_clone][location] = http://code.danepowell.com/fserver
+
 projects[cas] = 3.2
 
 projects[ctools] = 1.9
@@ -31,6 +34,9 @@ projects[] = hosting_task_gc
 projects[] = libraries
 
 projects[] = module_filter
+
+projects[nara_aegir][version] = 1.2
+projects[nara_aegir][location] = http://code.danepowell.com/fserver
 
 projects[node_clone][version] = 1.3
 projects[node_clone][patch][] = http://drupal.org/files/issues/node_clone-294442-32.patch
