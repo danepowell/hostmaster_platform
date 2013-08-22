@@ -29,7 +29,10 @@ projects[hosting_queue_runner] = 1.2
 
 projects[hosting_site_backup_manager] = 1.x-dev
 
-projects[] = hosting_task_gc
+projects[hosting_task_gc][download][type] = git
+projects[hosting_task_gc][download][url] = http://git.drupal.org/project/hosting_task_gc.git
+projects[hosting_task_gc][download][branch] = feature/thermonuclear
+projects[hosting_task_gc][type] = "module"
 
 projects[] = libraries
 
