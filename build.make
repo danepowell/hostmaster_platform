@@ -46,6 +46,8 @@ projects[node_clone][patch][] = http://drupal.org/files/issues/node_clone-294442
 
 projects[] = persistent_login
 
+projects[] = revision_deletion
+
 projects[rice_cas][location] = http://code.danepowell.com/fserver
 projects[rice_cas][version] = 1.6
 
